@@ -57,6 +57,14 @@ my_supervisor.start_link()
 
 Add this library to your Gleam project dependencies:
 
+For now you can pull this from GitHub and use this app as a regular Gleam modules
+
+```shell
+git pull https://github.com/etherealblaade/GleamServer
+```
+
+When this will be approved, you can use this as a standalone library like this:
+
 ```shell
 gleam add gleamserver
 ```
