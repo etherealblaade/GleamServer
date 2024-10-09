@@ -47,11 +47,11 @@ pub fn handle_message(
 }
 
 fn handle_call(msg: a, state: State(b)) -> #(a, b) {
-  // Implement call handling here
+  // TODO: Implement call handling here
   #(msg, state.data)
 }
 
 fn handle_cast(msg: a, state: State(b)) -> b {
-  // Implement cast handling here
+  // TODO: Implement cast handling here
   state.data
 }
